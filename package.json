@@ -1,0 +1,24 @@
+{
+  "name": "note_Taker",
+  "version": "1.0.0",
+  "description": "This is composed of Index.js This is a Employee team generator using node.js to prompt the user a series of question to be dynamically injected into a seperate final readme file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrennanPredmore/note_Taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrennanPredmore/note_Taker/issues"
+  },
+  "homepage": "https://github.com/BrennanPredmore/note_Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
