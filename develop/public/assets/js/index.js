@@ -52,6 +52,7 @@ var renderActiveNote = function() {
 // Get the note data from the inputs, save it to the db and update the view
 var handleNoteSave = function() {
   var newNote = {
+    id: Date.now(),
     title: $noteTitle.val(),
     text: $noteText.val()
   };
@@ -133,6 +134,8 @@ var getAndRenderNotes = function() {
 };
 
 $saveNoteBtn.on("click", handleNoteSave);
+
+
 $noteList.on("click", ".list-group-item", handleNoteView);
 $newNoteBtn.on("click", handleNewNoteView);
 $noteList.on("click", ".delete-note", handleNoteDelete);
