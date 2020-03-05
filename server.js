@@ -30,7 +30,7 @@ app.post('/api/notes', function (req, res){
     res.send(true)
 });
 
-app.delete('/api.note', function (req, res){
+app.delete('/api.notes', function (req, res){
     dbJson.splice(req.body)
 })
 
