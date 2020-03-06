@@ -1,8 +1,7 @@
 # note_Taker
 
-This is composed of Index.js
-This is a Employee team generator using node.js to prompt the user a series of question to be dynamically injected into a seperate final readme file.
-
+This is composed of Index.js, notes.html, index.html, server.js, db.json
+This is a note taker that will allow the user to dynamically add notes with a tittle and input. The user is about to post and delete the notes their own server.
 ## Github pages 
 
 This is where the main website will be launched 
@@ -15,6 +14,7 @@ CSS/BOOTSTRAP
 JAVASCRIPT
 JQUERY
 NODE.JS
+EXPRESS
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
