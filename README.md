@@ -3,9 +3,6 @@
 This is composed of Index.js
 This is a Employee team generator using node.js to prompt the user a series of question to be dynamically injected into a seperate final readme file.
 
-## VIDEO OF THE APPLICATION!
-![GIF]()
-
 ## Github pages 
 
 This is where the main website will be launched 
@@ -27,7 +24,7 @@ Please make sure to update tests as appropriate.
 ## Link
 https://github.com/BrennanPredmore/note_Taker
 
-https://brennanpredmore.github.io/note_Taker/
+https://notetakerproject.herokuapp.com/
 
 ## Commands to run program
 ```
