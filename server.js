@@ -30,9 +30,14 @@ app.post('/api/notes', function (req, res){
     res.send(true)
 });
 
-app.delete('/api.notes', function (req, res){
-    dbJson.splice(req.body)
-})
+app.delete('/api/notes/:id', function (req, res){
+    console.log(req.params.id)
+    const myId = dbJson.findIndex(item => { item.id == req.params.id});
+    console.log(myId);
+    dbJson.splice(myId,1);
+    console.log(dbJson)
+    res.json(true)
+});
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
